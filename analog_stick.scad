@@ -8,7 +8,7 @@ module analog_stick() {
   // Shaft
   cylinder(d = shaft_diameter, h = shaft_length);
   
-  // Ball (half sphere on top)
+  // Ball (sphere on top of shaft)
   translate([0, 0, shaft_length])
     sphere(d = ball_diameter);
 }

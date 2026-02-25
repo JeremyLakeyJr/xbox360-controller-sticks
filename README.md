@@ -2,6 +2,12 @@
 
 This repository contains 3D printable models for replacement analog sticks for the Xbox 360 controller.
 
+## Screenshots
+
+| Front / Isometric View | Side View |
+|---|---|
+| ![Analog Stick Front View](images/analog_stick_front.png) | ![Analog Stick Side View](images/analog_stick_side.png) |
+
 ## Files
 
 - `analog_stick.scad` - OpenSCAD source for the analog stick model
