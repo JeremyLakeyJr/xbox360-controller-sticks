@@ -3,10 +3,10 @@
 This repository contains 3D printable models for replacement analog sticks for the Xbox 360 controller.
 
 The model faithfully reproduces the shape of the original Xbox 360 analog stick:
-- **Concave thumb cap** – the recessed top surface keeps your thumb centred
+- **Concave thumb cap with grip ring** – the recessed top surface keeps your thumb centred while the raised outer ring provides grip, matching the original knurled edge
 - **Tapered shaft** – widens slightly toward the base for a natural feel
 - **Base skirt** – the wider flange that rests on the controller faceplate
-- **Bottom peg** – the small cylinder that inserts into the potentiometer housing
+- **Cross-shaped bottom peg** – the plus-shaped peg that fits onto the potentiometer shaft, matching the original cross profile
 
 ## Screenshots
 
@@ -23,17 +23,21 @@ The model faithfully reproduces the shape of the original Xbox 360 analog stick:
 
 | Part | Dimension |
 |---|---|
-| Bottom peg diameter | 4.5 mm |
-| Bottom peg height | 7.0 mm |
+| Bottom peg (cross-shaped) diameter | 3.5 mm |
+| Bottom peg arm width | 2.0 mm |
+| Bottom peg height | 4.0 mm |
 | Base / skirt diameter | 16.0 mm |
 | Base / skirt height | 3.0 mm |
 | Shaft diameter (bottom) | 11.0 mm |
 | Shaft diameter (top) | 9.0 mm |
 | Shaft height | 10.0 mm |
-| Thumb cap diameter | 13.5 mm |
+| Thumb cap outer diameter (with grip ring) | 18.0 mm |
+| Thumb cap inner diameter (concave bowl) | 13.5 mm |
 | Thumb cap height | 5.0 mm |
+| Grip ring height | 1.0 mm |
+| Grip ring width | 2.25 mm |
 | Concave top depth | 1.5 mm |
-| **Total height** | **25.0 mm** |
+| **Total height** | **23.0 mm** |
 
 ## Printing Instructions
 
@@ -49,7 +53,7 @@ The model faithfully reproduces the shape of the original Xbox 360 analog stick:
 3. Print the `analog_stick.stl` file.
 4. Insert the bottom peg into the potentiometer housing (may require glue or light sanding for a snug press-fit).
 
-Note: Adjust `peg_diameter` in the `.scad` file if the peg is too loose or too tight for your specific sensor module.
+Note: The cross-shaped peg is designed to match the standard Xbox 360 potentiometer shaft. Adjust `peg_across` and `peg_arm_width` in the `.scad` file if the fit is too loose or too tight for your specific sensor module.
 
 ## Disclaimer
 
