@@ -28,8 +28,8 @@ grip_ring_width    =  2.25;  // radial width of the grip ring
 
 // Sphere radius for concave top, derived from chord/sagitta formula:
 //   r = c^2 / (8*h) + h/2   (c = cap_inner_diameter, h = concave_depth)
-concave_r = (cap_inner_diameter * cap_inner_diameter) / (8 * concave_depth)
-            + concave_depth / 2;
+concave_r = ((cap_inner_diameter * cap_inner_diameter) / (8 * concave_depth)
+             + concave_depth / 2);
 
 // Cross-shaped peg module
 module cross_peg() {
